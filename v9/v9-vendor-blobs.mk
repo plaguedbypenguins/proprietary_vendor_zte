@@ -43,6 +43,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/v9/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/zte/v9/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
     vendor/zte/v9/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/zte/v9/proprietary/bin/abtfilt:system/bin/abtfilt \
+    vendor/zte/v9/proprietary/bin/hostapd:system/bin/hostapd \
     vendor/zte/v9/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/zte/v9/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/zte/v9/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
