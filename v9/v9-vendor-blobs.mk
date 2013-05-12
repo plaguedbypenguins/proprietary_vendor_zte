@@ -41,15 +41,15 @@ PRODUCT_COPY_FILES += \
     vendor/zte/v9/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/zte/v9/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/zte/v9/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    vendor/zte/v9/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
     vendor/zte/v9/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/zte/v9/proprietary/bin/abtfilt:system/bin/abtfilt \
+    vendor/zte/v9/proprietary/bin/hostapd:system/bin/hostapd \
     vendor/zte/v9/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/zte/v9/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/zte/v9/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/zte/v9/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/zte/v9/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/zte/v9/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/zte/v9/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/zte/v9/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/zte/v9/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/zte/v9/proprietary/lib/libgsl.so:system/lib/libgsl.so \
@@ -59,26 +59,29 @@ PRODUCT_COPY_FILES += \
     vendor/zte/v9/proprietary/lib/libloc-rpc.so:system/lib/libloc-rpc.so \
     vendor/zte/v9/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
     vendor/zte/v9/proprietary/bin/akmd2:system/bin/akmd2 \
-    vendor/zte/v9/proprietary/etc/ti_gauge.bqfs:system/etc/ti_gauge.bqfs \
-    vendor/zte/v9/proprietary/etc/ti_gauge.dffs:system/etc/ti_gauge.dffs \
-    vendor/zte/v9/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
     vendor/zte/v9/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
-    vendor/zte/v9/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
-    vendor/zte/v9/proprietary/lib/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
-    vendor/zte/v9/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+    vendor/zte/v9/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/zte/v9/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
-    vendor/zte/v9/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
-    vendor/zte/v9/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/zte/v9/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
+    vendor/zte/v9/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+    vendor/zte/v9/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
     vendor/zte/v9/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
-    vendor/zte/v9/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
-    vendor/zte/v9/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+    vendor/zte/v9/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+    vendor/zte/v9/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+    vendor/zte/v9/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/zte/v9/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
     vendor/zte/v9/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
+    vendor/zte/v9/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
+    vendor/zte/v9/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+    vendor/zte/v9/proprietary/lib/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
     vendor/zte/v9/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
-    vendor/zte/v9/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
-    vendor/zte/v9/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+    vendor/zte/v9/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
+    vendor/zte/v9/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
+    vendor/zte/v9/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/zte/v9/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
+    vendor/zte/v9/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/zte/v9/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/zte/v9/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
     vendor/zte/v9/proprietary/lib/libomx_aacdec_sharedlibrary.so:system/lib/libomx_aacdec_sharedlibrary.so \
     vendor/zte/v9/proprietary/lib/libomx_amrdec_sharedlibrary.so:system/lib/libomx_amrdec_sharedlibrary.so \
     vendor/zte/v9/proprietary/lib/libomx_amrenc_sharedlibrary.so:system/lib/libomx_amrenc_sharedlibrary.so \
